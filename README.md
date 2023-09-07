@@ -11,7 +11,7 @@
 The purpose of this assignment was to print out a countdown on the serial monitor from 10 - 0. When it reaches 0, it is supposed to print "LIFTOFF."
 
 ### Evidence 
-![Trump](images/Trump-Mugshot-Final.webp) 
+![Evidence](images/Screenshot 2023-09-06 104527.png)
 ### Wiring
 
 There is no wiring because we used the onboard LED.
