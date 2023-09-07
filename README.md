@@ -1,12 +1,29 @@
 # Engineering_4_Notebook
 
-&nbsp;
-
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Launch_Pad_Part_1](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
-&nbsp;
+## Launch_Pad_Part_1
+
+### Assignment Description
+
+The purpose of this assignment was to print out a countdown on the serial monitor from 10 - 0. When it reaches 0, it is supposed to print "LIFTOFF."
+
+### Evidence 
+![Evidence](images/Screenshot%202023-09-06%20104527.png)
+### Wiring
+
+There is no wiring because we used the onboard LED.
+
+### Code
+[Launch Pad 1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/Launch_Contdown.py)
+
+### Reflection
+
+This year, I figured out the hard way that F5 is not the standard for running code. Make sure to use CTRL S or D to run the code instead. Also, make sure to put the code into the code.py file from the board because it will not run if you just try to send it from the normal file. A handy tip is if you want to print some words but then a variable, separate them with a comma inside of the print statement.
+
+
 
 ## Raspberry_Pi_Assignment_Template
 
@@ -24,12 +41,9 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
-
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
 
 ## Onshape_Assignment_Template
 
