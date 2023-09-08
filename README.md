@@ -25,7 +25,7 @@ This year, I figured out the hard way that F5 is not the standard for running co
 
 
 
-## Raspberry_Pi_Assignment_Template
+## Launch_Pad_Part_2
 
 ### Assignment Description
 
@@ -33,15 +33,16 @@ The purpose of this assignment was to flash an LED once every second of the ten-
 
 ### Evidence 
 
-[Launchpad_2 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_2.py)
-
+![Evidence](Gif1.gif) 
 
 ### Wiring
 
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+[Launchpad_2 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_2.py)
+
 ### Reflection
 This assignment was pretty basic because we could base most of it on the last assignment so we just had to add an LED flashing when the second changed. 
 ## Onshape_Assignment_Template
