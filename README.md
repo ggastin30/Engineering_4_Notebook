@@ -33,7 +33,8 @@ The purpose of this assignment was to flash an LED once every second of the ten-
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+[Launchpad_2 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_2.py)
+
 
 ### Wiring
 
