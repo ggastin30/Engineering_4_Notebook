@@ -17,7 +17,7 @@ The purpose of this assignment was to print out a countdown on the serial monito
 There is no wiring because we used the onboard LED.
 
 ### Code
-[Launch Pad 1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/Launch_Contdown.py)
+[Launch Pad 1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/Launchpad_1.py)
 
 ### Reflection
 
