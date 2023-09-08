@@ -33,7 +33,7 @@ The purpose of this assignment was to flash an LED once every second of the ten-
 
 ### Evidence 
 
-![Evidence](Gif1.gif) 
+![Evidence](images/Gif1.gif) 
 
 ### Wiring
 
@@ -44,7 +44,10 @@ This may not be applicable to all assignments. Anything where you wire something
 [Launchpad_2 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_2.py)
 
 ### Reflection
-This assignment was pretty basic because we could base most of it on the last assignment so we just had to add an LED flashing when the second changed. 
+This assignment was pretty basic because we could base most of it on the last assignment so we just had to add an LED flashing when the second changed. I did have a hard time creating a GIF for the evidence. I used ezgif and had to compress it after creating a GIF because it was too big. I also made a big mistake of writing on top of my old code when I did the assignment which cost me lots of valuable time to re-write the old code.
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
