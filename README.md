@@ -37,7 +37,7 @@ The purpose of this assignment was to flash an LED once every second of the ten-
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![Wiring](images/Pic1.png)
 
 ### Code
 
