@@ -48,6 +48,29 @@ This assignment was pretty basic because we could base most of it on the last as
 
 
 
+## Launch_Pad_Part_3
+
+### Assignment Description
+
+The purpose of this assignment was to create an easier way to start the countdown by adding a button. When the button is pressed it starts the countdown or restarts it if it is already finished.
+
+### Evidence 
+
+![Evidence](images/Gif2.gif) 
+
+### Wiring
+
+![Wiring](images/Pic2.png)
+
+### Code
+
+[Launchpad_3 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_3.py)
+
+### Reflection
+I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin up.
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
