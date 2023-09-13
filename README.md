@@ -21,7 +21,7 @@ There is no wiring because we used the onboard LED.
 
 ### Reflection
 
-This year, I figured out the hard way that F5 is not the standard for running code. Make sure to use CTRL S or D to run the code instead. Also, make sure to put the code into the code.py file from the board because it will not run if you just try to send it from the normal file. A handy tip is if you want to print some words but then a variable, separate them with a comma inside of the print statement.
+This year, I figured out the hard way that F5 is not the standard for running code. Make sure to use CTRL S or D to run the code instead. Also, make sure to put the code into the code.py file from the board because it will not run if you just try to send it from the normal file. A handy tip is if you want to print some words, but then a variable, separate them with a comma inside of the print statement.
 
 
 
@@ -68,6 +68,29 @@ The purpose of this assignment was to create an easier way to start the countdow
 
 ### Reflection
 I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin up.
+
+
+
+
+## Launch_Pad_Part_4
+
+### Assignment Description
+
+
+### Evidence 
+
+![Evidence](images/Gif3.gif) 
+
+### Wiring
+
+![Wiring](images/Pic3.png)
+
+### Code
+
+[Launchpad_4 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_4.py)
+
+### Reflection
+
 
 
 
