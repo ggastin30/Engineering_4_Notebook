@@ -1,7 +1,7 @@
 # Engineering_4_Notebook
 
 ## Table of Contents
-* [Launch_Pad_Part_1](#raspberry_pi_assignment_template)
+* [Launch_Pad_Part_1](#Launch_Pad_Part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 ## Launch_Pad_Part_1
