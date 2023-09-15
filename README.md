@@ -72,8 +72,6 @@ I got a bit confused with all of the if statements that I created. I tried to do
 
 ## Launch_Pad_Part_4
 
-
-
 ### Assignment Description
 This assignment was the end of the launchpad modules so the goal was to have a complete and functioning code for all of the past 3 parts but then also add the servo that moves at the end. The servo should turn 180 degrees when the liftoff happens.
 
@@ -91,6 +89,26 @@ This assignment was the end of the launchpad modules so the goal was to have a c
 
 ### Reflection
 I didn't have too much trouble with this assignment apart from the library downloads. If you are importing a new library that is not built into the board, you need to take it from the lib folder of the Circuit Python Bundle and put it in the lib on the pico. Another thing that gave me trouble was the servo twitching when it was at 180 degrees. If you just make it 179 degrees instead, it won't twitch at all.
+
+
+
+## Crash_Avoidance_1
+
+### Assignment Description
+
+### Evidence 
+
+![Evidence](images/Gif4.gif) 
+
+### Wiring
+
+![Wiring](images/Pic4.png)
+
+### Code
+
+[Crash_Avoidance_1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_4.py)
+
+### Reflection
 
 
 
