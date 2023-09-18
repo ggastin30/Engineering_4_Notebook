@@ -2,10 +2,14 @@ import board
 import time
 import adafruit_mpu6050
 import busio
+import digitalio
 
 sda_pin = board.GP14 #Sets the sda pin
 scl_pin = board.GP15 #Sets the scl pin
 i2c = busio.I2C(scl_pin, sda_pin) # Connects the sda and scl to i2c
+
+Led = digitalio.DigitalInOut(board.GP0)
+Led.direction = digitalio.Direction.OUTPUT # Pin is using output
 
 mpu = adafruit_mpu6050.MPU6050(i2c) # Sets up the MPU
 
@@ -19,4 +23,6 @@ while True:
     print(f"Z acceleration:{Zaccel}")
     print(" ") # Create a space between the prints
 
+    if abs(Xaccel) > 9.8 or abs(Yaccel) > 9.8:
+        Led.value = True
     time.sleep(.1) # Pause so there isn't too much data
