@@ -95,6 +95,7 @@ I didn't have too much trouble with this assignment apart from the library downl
 ## Crash_Avoidance_1
 
 ### Assignment Description
+The goal of this assignment was to read the acceleration of the MPU6050 in three differewnt axies. This will tell us which way it is going when we try to counteract it in crash avoidance. 
 
 ### Evidence 
 
@@ -106,10 +107,10 @@ I didn't have too much trouble with this assignment apart from the library downl
 
 ### Code
 
-[Crash_Avoidance_1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_4.py)
+[Crash_Avoidance_1 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_1.py)
 
 ### Reflection
-
+This assignmet was a bit tricky because it was hard to tell if I was done or not. I had to play around with the delay on the printing to find an interval that hit most of the movement, but wasn't too fast so that the values were blurry. I learned a very useful thing in this assignment about printing that I wish I knew earlier. If you fill the print with (f" {}"), anything in the brackets will be a variable and anything in the blank space is just printed at text.
 
 
 ## Onshape_Assignment_Template
