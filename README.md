@@ -117,6 +117,7 @@ This assignment was a bit tricky because it was hard to tell if I was done or no
 ## Crash_Avoidance_2
 
 ### Assignment Description
+This assignment built on the previous one as we had to turn an LED on if the board was tilted at a 90-degree angle. This would detect if a flying object was tilted on its side and crashing.
 
 ### Evidence 
 
@@ -131,7 +132,7 @@ This assignment was a bit tricky because it was hard to tell if I was done or no
 [Crash_Avoidance_2 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_2.py)
 
 ### Reflection
-
+This assignment taught me some interesting things about acceleration. Gravity affects the acceleration of the MPU with a factor of 9.8 if that axis is perpendicular to the ground. Mobile batteries are very useful and much easier to use when you have something that needs to be tested with some sort of motion. Simply wire the battery holder with a GND to Gnd and the SW to VSYS.
 
 
 ## Onshape_Assignment_Template
