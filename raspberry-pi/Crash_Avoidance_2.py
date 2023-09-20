@@ -23,6 +23,9 @@ while True:
     print(f"Z acceleration:{Zaccel}")
     print(" ") # Create a space between the prints
 
-    if abs(Xaccel) > 9.8 or abs(Yaccel) > 9.8:
+    if Zaccel < 1:
         Led.value = True
-    time.sleep(.1) # Pause so there isn't too much data
+        time.sleep(.1) # Pause so there isn't too much data
+    else:
+        Led.value = False
+        time.sleep(.1) # Pause so there isn't too much data
