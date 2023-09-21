@@ -23,7 +23,7 @@ while True:
     print(f"Z acceleration:{Zaccel}")
     print(" ") # Create a space between the prints
 
-    if Zaccel < 1: # If Z is 90 degrees from parallel
+    if abs(Zaccel) < 1: # If Z is 90 degrees from parallel
         Led.value = True # Turn LED on
         time.sleep(.1) # Pause so there isn't too much data
     else:
