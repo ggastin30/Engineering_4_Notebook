@@ -68,7 +68,7 @@ The purpose of this assignment was to create an easier way to start the countdow
 [Launchpad_3 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_3.py)
 
 ### Reflection
-I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin up.
+I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin-up.
 
 
 
@@ -151,7 +151,7 @@ In this assignment, we had to read the angular velocity of an MPU and print it o
 
 ### Wiring
 
-![Wiring](images/Pic6.png)
+![Wiring](images/Pic6.jpg)
 
 ### Code
 
