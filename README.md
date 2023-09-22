@@ -143,7 +143,7 @@ This assignment taught me some interesting things about acceleration. Gravity af
 ## Crash_Avoidance_3
 
 ### Assignment Description
-In this assignment we had to read the angular velocity of an MPU and print it onto an OLED screen. This could be applied to saving a projectile trying to land that may be spinning in a crazy direction. 
+In this assignment, we had to read the angular velocity of an MPU and print it onto an OLED screen. This could be applied to saving a projectile trying to land that may be spinning in a crazy direction. 
 
 ### Evidence 
 
