@@ -7,6 +7,7 @@
 * [Launch_Pad_Part_4](#Launch_Pad_Part_4)
 * [Crash_Avoidance_1](#Crash_Avoidance_1)
 * [Crash_Avoidance_2](#Crash_Avoidance_2)
+* [Crash_Avoidance_3](#Crash_Avoidance_3)
 
 ## Launch_Pad_Part_1
 
@@ -67,7 +68,7 @@ The purpose of this assignment was to create an easier way to start the countdow
 [Launchpad_3 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Launchpad_3.py)
 
 ### Reflection
-I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin up.
+I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin-up.
 
 
 
@@ -135,6 +136,31 @@ This assignment built on the previous one as we had to turn an LED on if the boa
 
 ### Reflection
 This assignment taught me some interesting things about acceleration. Gravity affects the acceleration of the MPU with a factor of 9.8 if that axis is perpendicular to the ground. Mobile batteries are very useful and much easier to use when you have something that needs to be tested with some sort of motion. Simply wire the battery holder with a GND to Gnd and the SW to VSYS.
+
+
+
+
+## Crash_Avoidance_3
+
+### Assignment Description
+In this assignment, we had to read the angular velocity of an MPU and print it onto an OLED screen. This could be applied to saving a projectile trying to land that may be spinning in a crazy direction. 
+
+### Evidence 
+
+![Evidence](images/Gif6.gif) 
+
+### Wiring
+
+![Wiring](images/Pic6.jpg)
+
+### Code
+
+[Crash_Avoidance_3 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_3.py)
+
+### Reflection
+This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of wierd syntax that has to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
+
+
 
 
 ## Onshape_Assignment_Template
