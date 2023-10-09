@@ -8,6 +8,9 @@
 * [Crash_Avoidance_1](#Crash_Avoidance_1)
 * [Crash_Avoidance_2](#Crash_Avoidance_2)
 * [Crash_Avoidance_3](#Crash_Avoidance_3)
+* [Beam_Design](#Beam_Design)
+* [Beam_Analysis](#Beam_Analysis)
+
 
 ## Launch_Pad_Part_1
 
@@ -161,7 +164,7 @@ In this assignment, we had to read the angular velocity of an MPU and print it o
 This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of wierd syntax that has to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
 
 
-## Beam Design
+## Beam_Design
 
 ### Assignment Description
 
@@ -182,7 +185,7 @@ There were a lot of tricky constraints that made this assignment difficult. The 
 
 
 
-## Beam Analysis
+## Beam_Analysis
 
 ### Assignment Description
 
