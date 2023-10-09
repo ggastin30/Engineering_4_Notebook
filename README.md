@@ -194,12 +194,12 @@ The objective of this assignment was to simulate what would happen to our beam u
 
 ### Part Image
 
-![Beam](images/Beam_solid.png)
-![Beam2](images/Beam_translucent.png)  
+![Beam_render1](images/Beam_render1.png)
+![Beam_render2](images/Beam_render2.png)  
 
 ### Reflection
 
-This assignment was straightforward but you could lose a lot of precious time if you clicked on the wrong thing. Before you run the simulation you need to make sure you have a face selected and not a point. If you select a point, your results will be too good to be true. Another thing is being aware of what you're doing when the simulation is running. The simulation takes an insane amount of time but if you click on another tab in onshape, it will reset the entire proccess. Make sure to set a good amount of time aside to render the effects of weight on your design.
+This assignment was straightforward but you could lose a lot of precious time if you clicked on the wrong thing. Before you run the simulation you need to make sure you have a face selected and not a point. If you select a point, your results will be too good to be true. Another thing is being aware of what you're doing when the simulation is running. The simulation takes an insane amount of time but if you click on another tab in onshape, it will reset the entire process. Make sure to set a good amount of time aside to render the effects of weight on your design.
 
 
 ## Onshape_Assignment_Template
