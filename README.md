@@ -161,7 +161,7 @@ In this assignment, we had to read the angular velocity of an MPU and print it o
 This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of wierd syntax that has to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
 
 
-## Beam
+## Beam Design
 
 ### Assignment Description
 
@@ -180,6 +180,26 @@ The purpose of this assignment was to create a beam that can withstand enough we
 
 There were a lot of tricky constraints that made this assignment difficult. The hardest constraint was that we couldn't have an overhang of 45 degrees or more acute. Our first idea was a honeycomb structure but after we saw this constraint, we had to change our design. We tried to use circles but that also got vetoed because of the overhang. In the end, we used triangles which have good structural integrity and no overhangs. We didn't run into any problems with the weight of 13 grams unlike other teams did. We feel like we needed a better system to have both of us working on the document at the same time. Maybe it would have been better if we were side by side instead of across from each other.
 
+
+
+## Beam Analysis
+
+### Assignment Description
+
+The objective of this assignment was to simulate what would happen to our beam under 30N of pressure in an onshape simulation.
+
+### Part Link
+
+[Link to document](https://cvilleschools.onshape.com/documents/c407a01931b8eba03dec4159/w/43c6c11648628f76d52336ae/e/5e86bb4a23adabcf187f2e56).
+
+### Part Image
+
+![Beam](images/Beam_solid.png)
+![Beam2](images/Beam_translucent.png)  
+
+### Reflection
+
+This assignment was straightforward but you could lose a lot of precious time if you clicked on the wrong thing. Before you run the simulation you need to make sure you have a face selected and not a point. If you select a point, your results will be too good to be true. Another thing is being aware of what you're doing when the simulation is running. The simulation takes an insane amount of time but if you click on another tab in onshape, it will reset the entire proccess. Make sure to set a good amount of time aside to render the effects of weight on your design.
 
 
 ## Onshape_Assignment_Template
