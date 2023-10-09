@@ -218,7 +218,7 @@ The purpose of this assignment was to improve our beam based on the results foun
 
 ### Part Image
 
-![Beam](images/model_raw.png) 
+![Beam_Final](images/Beam_Final.png) 
 
 ### Reflection
 
