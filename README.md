@@ -76,7 +76,6 @@ I got a bit confused with all of the if statements that I created. I tried to do
 
 
 
-
 ## Launch_Pad_Part_4
 
 ### Assignment Description
@@ -140,7 +139,6 @@ This assignment built on the previous one as we had to turn an LED on if the boa
 
 ### Reflection
 This assignment taught me some interesting things about acceleration. Gravity affects the acceleration of the MPU with a factor of 9.8 if that axis is perpendicular to the ground. Mobile batteries are very useful and much easier to use when you have something that needs to be tested with some sort of motion. Simply wire the battery holder with a GND to Gnd and the SW to VSYS.
-
 
 
 
@@ -224,36 +222,3 @@ The purpose of this assignment was to improve our beam based on the results foun
 ### Reflection
 
 This assignment was the most time-consuming yet, as trying to improve the structural integrity of the beam resulted in a massive increase in weight, surpassing the 13g restriction. To fit this constraint, I had to cut multiple holes which, in turn, decreased the integrity of the beam. This cycle of shortcomings continued again and again until we realized that the biggest fault was right in the middle of the beam. Our solution was to slap on material from other parts of the build onto the middle, thickening the weakest points on the beam, resulting in a dramatic drop in displacement from roughly 85 all the way down to 16 millimeters at 30 N of force.
-
-
-
-## Onshape_Assignment_Template
-
-### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
-### Part Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
-### Part Image
-
-Take a nice screenshot of your Onshape document. 
-
-### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
-
-## Media Test
-
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
-
-### Test Link
- [Hyperlink text](raspberry-pi/test.py)      
-### Test Image
-![Trump](images/Trump-Mugshot-Final.webp) 
-### Test GIF
-![Meat](images/giphy.gif) 
