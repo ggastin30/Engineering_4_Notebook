@@ -8,6 +8,10 @@
 * [Crash_Avoidance_1](#Crash_Avoidance_1)
 * [Crash_Avoidance_2](#Crash_Avoidance_2)
 * [Crash_Avoidance_3](#Crash_Avoidance_3)
+* [Beam_Design](#Beam_Design)
+* [Beam_Analysis](#Beam_Analysis)
+* [Beam_Final](#Beam_Final)
+
 
 ## Launch_Pad_Part_1
 
@@ -69,7 +73,6 @@ The purpose of this assignment was to create an easier way to start the countdow
 
 ### Reflection
 I got a bit confused with all of the if statements that I created. I tried to do an else if but realized that you only need that if you have 3 conditions. Also, make sure to indent the code inside of the if statements, or else it won't be in the loop. Another piece of advice unique to this assignment is that you only need to put a ground and a pin on one side of the button if you pull the pin-up.
-
 
 
 
@@ -139,7 +142,6 @@ This assignment taught me some interesting things about acceleration. Gravity af
 
 
 
-
 ## Crash_Avoidance_3
 
 ### Assignment Description
@@ -161,35 +163,62 @@ In this assignment, we had to read the angular velocity of an MPU and print it o
 This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of wierd syntax that has to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
 
 
-
-
-## Onshape_Assignment_Template
+## Beam_Design
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The purpose of this assignment was to create a beam that can withstand enough weight and no flex or break. There were numerous requirements for this, including but not limited to a length to the hole of 180mm, less than 13 grams in total, and no overhangs.
 
-### Part Link 
+### Part Link
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Link to document](https://cvilleschools.onshape.com/documents/c407a01931b8eba03dec4159/w/43c6c11648628f76d52336ae/e/85621042ae551a6f13bf6ea8).
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Beam](images/Beam_solid.png)
+![Beam2](images/Beam_translucent.png)  
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+There were a lot of tricky constraints that made this assignment difficult. The hardest constraint was that we couldn't have an overhang of 45 degrees or more acute. Our first idea was a honeycomb structure but after we saw this constraint, we had to change our design. We tried to use circles but that also got vetoed because of the overhang. In the end, we used triangles which have good structural integrity and no overhangs. We didn't run into any problems with the weight of 13 grams unlike other teams did. We feel like we needed a better system to have both of us working on the document at the same time. Maybe it would have been better if we were side by side instead of across from each other.
 
-&nbsp;
 
-## Media Test
 
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
+## Beam_Analysis
 
-### Test Link
- [Hyperlink text](raspberry-pi/test.py)      
-### Test Image
-![Trump](images/Trump-Mugshot-Final.webp) 
-### Test GIF
-![Meat](images/giphy.gif) 
+### Assignment Description
+
+The objective of this assignment was to simulate what would happen to our beam under 30N of pressure in an onshape simulation.
+
+### Part Link
+
+[Link to document](https://cvilleschools.onshape.com/documents/c407a01931b8eba03dec4159/w/43c6c11648628f76d52336ae/e/5e86bb4a23adabcf187f2e56).
+
+### Part Image
+
+![Beam_render1](images/Beam_render1.png)
+![Beam_render2](images/Beam_render2.png)  
+
+### Reflection
+
+This assignment was straightforward but you could lose a lot of precious time if you clicked on the wrong thing. Before you run the simulation you need to make sure you have a face selected and not a point. If you select a point, your results will be too good to be true. Another thing is being aware of what you're doing when the simulation is running. The simulation takes an insane amount of time but if you click on another tab in onshape, it will reset the entire process. Make sure to set a good amount of time aside to render the effects of weight on your design.
+
+
+
+## Beam_Final
+
+### Assignment Description
+
+The purpose of this assignment was to improve our beam based on the results found from FEA (finite element analysis) so as to make it hold more weight than it did in previous simulations. The constraints of this were the same as they were in previous assignments, meaning that all changes had to comply to all of the same rules.
+
+### Part Link
+
+[Link to document](https://cvilleschools.onshape.com/documents/c407a01931b8eba03dec4159/w/43c6c11648628f76d52336ae/e/85621042ae551a6f13bf6ea8).
+
+### Part Image
+
+![Beam_final](images/Beam_final.png) 
+
+### Reflection
+
+This assignment was the most time-consuming yet, as trying to improve the structural integrity of the beam resulted in a massive increase in weight, surpassing the 13g restriction. To fit this constraint, I had to cut multiple holes which, in turn, decreased the integrity of the beam. This cycle of shortcomings continued again and again until we realized that the biggest fault was right in the middle of the beam. Our solution was to slap on material from other parts of the build onto the middle, thickening the weakest points on the beam, resulting in a dramatic drop in displacement from roughly 85 all the way down to 16 millimeters at 30 N of force.
