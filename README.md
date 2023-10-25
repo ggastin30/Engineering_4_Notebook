@@ -182,7 +182,7 @@ N/A
 [Landing_Area_1](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_1.py)
 
 ### Reflection
-
+This assignment had lots of tricky new syntax with splits, inputs, and floats. Splits use a comma or other spacing to turn one variable into 2 different ones. The input takes an input of text from the serial monitor and can turn it into a variable. Floats turn a string into a float so you can use it as a number. If you are trying to plug a variable into a math formula, you need to turn it into a float. Another thing we learned was how to create a function that you can call later and simplify your code.
 
 ## Beam_Design
 
