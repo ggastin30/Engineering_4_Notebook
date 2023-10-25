@@ -164,10 +164,10 @@ This finale of the set of crash avoidance assignments was probably the trickiest
 
 
 
-## Crash_Avoidance_3
+## Landing_Area_1
 
 ### Assignment Description
-
+The objective of this assignment was to create a code that could take 3 points and find the area in between them. 
 
 ### Evidence 
 
