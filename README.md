@@ -160,7 +160,49 @@ In this assignment, we had to read the angular velocity of an MPU and print it o
 [Crash_Avoidance_3 Code](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_3.py)
 
 ### Reflection
-This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of wierd syntax that has to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
+This finale of the set of crash avoidance assignments was probably the trickiest one yet. The OLED had lots of weird syntax that had to be done in a certain order. All of the lines except for the "text_area.text = f"ANGULAR VELOCITY: \n X:{} \n Y:{} \n Z:{}" line which goes in the loop. If you put all of the stuff in the loop, it will just continuously print on top of the previous text. Another simple thing that I was confused about was what the angular velocity was for Z. Z describes the velocity of the spin if the board is flat on the table.
+
+
+
+## Landing_Area_1
+
+### Assignment Description
+The objective of this assignment was to create a code that could take 3 points and find the area in between them. 
+
+### Evidence 
+
+![Evidence](images/Land1.gif) 
+
+### Wiring
+
+N/A
+
+### Code
+
+[Landing_Area_1](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_1.py)
+
+### Reflection
+This assignment had lots of tricky new syntax with splits, inputs, and floats. Splits use a comma or other spacing to turn one variable into 2 different ones. The input takes an input of text from the serial monitor and can turn it into a variable. Floats turn a string into a float so you can use it as a number. If you are trying to plug a variable into a math formula, you need to turn it into a float. Another thing we learned was how to create a function that you can call later and simplify your code.
+
+
+
+## Landing_Area_2
+
+### Assignment Description
+
+### Evidence 
+
+![Evidence](images/Land1.gif) 
+
+### Wiring
+
+N/A
+
+### Code
+
+[Landing_Area_2](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_2.py)
+
+### Reflection
 
 
 ## Beam_Design
