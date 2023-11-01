@@ -198,7 +198,7 @@ The goal of this assignment was to graph a triangle on an OLED and print the are
 
 ### Wiring
 
-
+![Wiring](images/Pic7.png)
 
 ### Code
 
