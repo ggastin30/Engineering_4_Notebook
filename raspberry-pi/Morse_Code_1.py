@@ -23,7 +23,7 @@ while True:
     print("Enter Morse Code Message, or enter -q to quit:")
     Text = input()
     if Text == "-q":
-        print("Entry Not Valid")
+        print("Quit")
         break
     else: 
         Up_Text = Text.upper()
