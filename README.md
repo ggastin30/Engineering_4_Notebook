@@ -190,19 +190,24 @@ This assignment had lots of tricky new syntax with splits, inputs, and floats. S
 
 ### Assignment Description
 
+The goal of this assignment was to graph a triangle on an OLED and print the area of it when given 3 points. 
+
 ### Evidence 
 
-![Evidence](images/Land1.gif) 
+![Evidence](images/Land2.gif) 
 
 ### Wiring
 
-N/A
+
 
 ### Code
 
 [Landing_Area_2](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Landing_Area_2.py)
 
 ### Reflection
+
+This assignment was very tricky because the OLED had a lot of new syntax that we had to figure out. Everything that isn't a splash or what you are splashing shouldn't be in the "while true" loop. If you put all the setup stuff in the while true loop it will overload your computer because it will continuously reset and print on the OLED. Another thing you should take into account when using an OLED is that it will just print what's on the serial monitor unless you use the line display.show(splash) in your setup to define that splashes are the only thing that should be printed.
+
 
 
 ## Beam_Design
