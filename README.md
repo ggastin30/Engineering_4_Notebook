@@ -210,6 +210,28 @@ This assignment was very tricky because the OLED had a lot of new syntax that we
 
 
 
+## Morse_Code_1
+
+### Assignment Description
+
+
+### Evidence 
+
+![Evidence](images/Morse1.gif) 
+
+### Wiring
+
+N/A
+
+### Code
+
+[Morse_Code_1](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_1.py)
+
+### Reflection
+
+
+
+
 ## Beam_Design
 
 ### Assignment Description
