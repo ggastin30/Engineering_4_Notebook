@@ -210,6 +210,30 @@ This assignment was very tricky because the OLED had a lot of new syntax that we
 
 
 
+## Morse_Code_1
+
+### Assignment Description
+
+The objective for this assignment was pretty simple because all we had to do was convert letters to Morse code.
+
+### Evidence 
+
+![Evidence](images/Morse1.gif) 
+
+### Wiring
+
+N/A
+
+### Code
+
+[Morse_Code_1](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_1.py)
+
+### Reflection
+
+Most of this assignment was simple but I struggled with how simple some lines could be. letter literally takes the first letter of the word and then the next until it finishes the word. I was trying to make it more complicated than it should have been by putting it into a list but this just shows that there's usually an easier way to do something in code if you just look around for a bit. Another thing that helps in many situations is putting end=' ' at the end of a print statement so the next print will continue along the line. 
+
+
+
 ## Beam_Design
 
 ### Assignment Description
