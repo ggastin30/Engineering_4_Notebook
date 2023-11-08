@@ -1,5 +1,6 @@
 import board
 import digitalio
+import time
 
 # Dictionary representing the morse code chart
 MORSE_CODE = { 'A':'.-', 'B':'-...',
@@ -38,8 +39,20 @@ while True:
         Up_Text = Text.upper() #Make all text uppercase
         for letter in Up_Text: #Go through each letter in the word
             print(MORSE_CODE[f"{letter}"], end=" ") #Print each letter in morse
+        for letter in Up_Text: #Go through each letter in the word
             Flash = MORSE_CODE[letter]
-            
-
-            
+            if Flash == ".":
+                Bled.value = True
+                time.sleep(dot_time)
+            if Flash == "-":
+                Bled.value = True
+                time.sleep(dash_time)
+            elif Flash == " ":
+                Bled.value = False
+                time.sleep(between_letters)
+            elif Flash == "/":
+                Bled.value = False
+                time.sleep(between_words)
+            Bled.value = False
+            time.sleep(between_taps)
         
