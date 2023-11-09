@@ -234,6 +234,31 @@ Most of this assignment was simple but I struggled with how simple some lines co
 
 
 
+
+## Morse_Code_2
+
+### Assignment Description
+
+In this assignment, we blinked an LED to a Morse code sentence. The dots had to be a third the size of the dashes.
+
+### Evidence 
+
+![Evidence](images/Morse2.gif) 
+
+### Wiring
+
+![Wiring](images/Pic8.png)
+
+### Code
+
+[Morse_Code_2](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Morse_Code_2.py)
+
+### Reflection
+
+This assignment took me a good amount of time because I had some confusion on a lot of syntax. I learned that in for statements, the first variable can be whatever as long as you use it in that for loop. continue is also a very helpful function in which you can go to the next set of code after an if statement. If you only want the if statement to run once, continue is very helpful. break is a cousin statement to continue but instead of going to the next loop, it escapes all loops.
+
+
+
 ## Beam_Design
 
 ### Assignment Description
