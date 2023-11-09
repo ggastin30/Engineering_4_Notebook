@@ -44,7 +44,7 @@ while True:
             if Flash == ".":
                 Bled.value = True
                 time.sleep(dot_time)
-            if Flash == "-":
+            elif Flash == "-":
                 Bled.value = True
                 time.sleep(dash_time)
             elif Flash == " ":
