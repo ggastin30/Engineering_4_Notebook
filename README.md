@@ -264,6 +264,7 @@ This assignment took me a good amount of time because I had some confusion on a 
 
 ### Assignment Description
 
+In this assignment, we used a new mode on the Pico called data mode to record values of acceleration and time and put them into a spreadsheet.
 
 ### Evidence 
 
@@ -271,7 +272,7 @@ This assignment took me a good amount of time because I had some confusion on a 
 
 ### Wiring
 
-![Wiring](images/Pic8.png)
+![Wiring](images/Pic5.png)
 
 ### Code
 
@@ -279,7 +280,7 @@ This assignment took me a good amount of time because I had some confusion on a 
 
 ### Reflection
 
-
+I hit a lot of potholes on this assignment which set me back. I didn't realize that you needed to save boot.py 
 
 
 
