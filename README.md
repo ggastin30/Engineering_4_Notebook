@@ -284,6 +284,32 @@ In this assignment, we used a new mode on the Pico called data mode to record va
 I hit a lot of potholes on this assignment which set me back. I didn't realize that you needed to save boot.py and code.py separately for the Pico to be able to use data mode. A white dot on the tab at the top means that the code hasn't been saved yet with Ctrl + S. Also, make sure to unplug your battery before you plug the Pico into the computer, or else it will wipe the Pico of everything.
 
 
+
+
+## Data_2
+
+### Assignment Description
+
+The goal of this assignment was to organize all the data we got from part 1 and put it into coherent graphs.
+
+### Evidence 
+
+![Evidence](images/Pic9.png)
+[Data Sheet](https://docs.google.com/spreadsheets/d/1yQ1KuQWmWaBD1q0s_q2kh_pPomxbEiWnucRlE8BRBBU/edit#gid=0)
+
+### Wiring
+
+N/A
+
+### Code
+
+N/A
+
+### Reflection
+
+This assignment showed me some interesting and useful things that Google Sheets can do. You can tell the computer what data you want to use by giving the 
+
+
 ## Beam_Design
 
 ### Assignment Description
