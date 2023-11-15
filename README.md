@@ -269,6 +269,7 @@ In this assignment, we used a new mode on the Pico called data mode to record va
 ### Evidence 
 
 ![Evidence](images/Gif5.gif) 
+
 [Data Sheet](https://docs.google.com/spreadsheets/d/1yQ1KuQWmWaBD1q0s_q2kh_pPomxbEiWnucRlE8BRBBU/edit#gid=0)
 ### Wiring
 
