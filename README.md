@@ -269,6 +269,7 @@ In this assignment, we used a new mode on the Pico called data mode to record va
 ### Evidence 
 
 ![Evidence](images/Gif5.gif) 
+![Data Sheet](https://docs.google.com/spreadsheets/d/1yQ1KuQWmWaBD1q0s_q2kh_pPomxbEiWnucRlE8BRBBU/edit#gid=0)
 
 ### Wiring
 
@@ -280,8 +281,7 @@ In this assignment, we used a new mode on the Pico called data mode to record va
 
 ### Reflection
 
-I hit a lot of potholes on this assignment which set me back. I didn't realize that you needed to save boot.py 
-
+I hit a lot of potholes on this assignment which set me back. I didn't realize that you needed to save boot.py and code.py separately for the Pico to be able to use data mode. A white dot on the tab at the top means that the code hasn't been saved yet with Ctrl + S. Also, make sure to unplug your battery before you plug the Pico into the computer, or else it will wipe the Pico of everything.
 
 
 ## Beam_Design
