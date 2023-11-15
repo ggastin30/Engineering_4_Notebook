@@ -307,7 +307,7 @@ N/A
 
 ### Reflection
 
-This assignment showed me some interesting and useful things that Google Sheets can do. You can tell the computer what data you want to use by giving the 
+This assignment showed me some interesting and useful things that Google Sheets can do. You can tell the computer what data you want to use by giving the coordinates of the data piece such as A6. If you want to add an axis title, go into customize and then hit the scroll down on the axis. I couldn't find that one the first time. There are also different types of graphs that you can use based on your goal.
 
 
 ## Beam_Design
