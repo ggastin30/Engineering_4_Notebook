@@ -259,6 +259,30 @@ This assignment took me a good amount of time because I had some confusion on a 
 
 
 
+
+## Data_1
+
+### Assignment Description
+
+
+### Evidence 
+
+![Evidence](images/Gif5.gif) 
+
+### Wiring
+
+![Wiring](images/Pic8.png)
+
+### Code
+
+[Data_1](https://github.com/ggastin30/Engineering_4_Notebook/blob/main/raspberry-pi/Data_1.py)
+
+### Reflection
+
+
+
+
+
 ## Beam_Design
 
 ### Assignment Description
